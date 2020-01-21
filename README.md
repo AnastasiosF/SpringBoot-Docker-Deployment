@@ -1,6 +1,12 @@
 # Spring Boot Docker Deployment
 
-### Run
+
+http://localhost:8080/api/v1/findAll
+
+`docker-compose up --build`
+
+
+### Run dockerfile independent
 1. `cd` inside the folder
 2. Change the gym.jar with your own `jar file`
 3. Replace in `Dockerfile` the `gym.jar` with your own `jar file` name 
